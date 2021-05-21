@@ -128,7 +128,7 @@ namespace Hastane_v0._2
                 if (dr.HasRows)
                 {
                      string cins = "";
-                    if (dr["cinsiyet"].ToString() == "E") cins = "Erkek";
+                    if (dr["CİNSİYET"].ToString() == "E") cins = "Erkek";
                     else cins = "Kadın";
                     txtAd.Text = dr["AD"].ToString();
                     txtSoyad.Text = dr["SOYAD"].ToString();
